@@ -15,7 +15,7 @@ exports.getProductById= async (req,res,next)=>{
     }
     res.status(200).json({
         success:true,
-        mensaje:"Aqui debajo encuentras la información de tus productos1",
+        mensaje:"Aqui debajo encuentras la información de tus productos1, Productos2",
         product
     })
 }
