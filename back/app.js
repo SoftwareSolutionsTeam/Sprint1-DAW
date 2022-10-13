@@ -9,4 +9,4 @@ const productos=require("./routes/products")
 app.use('/api',productos) //Sujeto a decision (ruta del navegador)
 
 module.exports=app
-//
+//este es mi comentario
